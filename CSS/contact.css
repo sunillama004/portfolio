@@ -1,0 +1,145 @@
+/*------ Reset default ------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* -----background image------ */
+
+body{
+    background-image: url(../image/contact-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*---------- contact form section --------*/
+
+/* ------font section----- */
+.follow-title{
+    color:#b3072c;
+    margin-top: 10vh;
+
+}
+.title-small{
+    text-align: center;
+    font-size: 2.1rem;
+    padding: 12px;
+}
+
+
+form {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#cont-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0;
+
+}
+
+#cont-form .cont-input {
+    display: block;
+    width: 30%;
+    margin: auto;
+    height: 25px;
+    border-radius: 5px;
+    padding: 0.4rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+#cont-form .cont-label {
+    font-size: 1.3rem;
+    padding: 0px 25%;
+}
+
+
+
+#cont-form textarea {
+    width: 60%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    display: block;
+    margin: auto;
+
+
+
+}
+
+.t-area {
+    margin-top: 20px;
+
+}
+
+.t-area .cont-label {
+    padding: 0px 25%;
+}
+
+.cont-btn {
+    color: white;
+    font-weight: 700;
+    background: linear-gradient(#0d86f8, #bcd3e9);
+    font-size: 20px;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.cont-btn:hover{
+    background: linear-gradient(to right, #70abe2,rgb(20, 98, 232));
+}
+
+
+
+
+/* Icons section */
+.follow {
+    margin: auto;
+    width: 89%;
+    padding: 9px;
+    text-align: center;
+}
+
+.social-icons .icn {
+    width: 36px;
+    height: 40px;
+    line-height: 46px;
+    font-size: 56px;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    margin-right: 15px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.social-icons {
+    margin: 0;
+
+}
+
+
+
+/* media querry section */
+@media only screen and (max-width:1035px) {
+    form {
+        width: 97%;
+    
+    }
+
+    #cont-form .cont-input {
+    width: 35%;
+    }
+}
